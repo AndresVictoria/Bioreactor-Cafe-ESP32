@@ -1,0 +1,12 @@
+idf_component_register(SRCS "main.c" 
+                            "sensores.c" 
+                            "ph_sensor.c" 
+                            "botones.c" 
+                            "rgb_control.c" 
+                            "ds18b20.c" 
+                            "dht.c" 
+                            "ldr.c" 
+                            "ds1302.c" 
+                            "i2c_lcd.c"
+                            "sd_log.c"
+                       INCLUDE_DIRS ".")

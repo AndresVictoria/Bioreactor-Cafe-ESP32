@@ -1,0 +1,86 @@
+#-------------------------------------------------
+# Configuración general
+#-------------------------------------------------
+
+PROJECT_NAME           = "Fermentador de Cafe"
+PROJECT_BRIEF          = "Sistema embebido con FreeRTOS para monitoreo de fermentacion"
+OUTPUT_DIRECTORY       = docs
+CREATE_SUBDIRS         = NO
+
+#-------------------------------------------------
+# Entrada de archivos
+#-------------------------------------------------
+
+INPUT                  = main/
+RECURSIVE              = YES
+FILE_PATTERNS          = *.c *.h
+
+#-------------------------------------------------
+# Extracción de contenido
+#-------------------------------------------------
+
+EXTRACT_ALL            = YES
+EXTRACT_PRIVATE        = YES
+EXTRACT_STATIC         = YES
+EXTRACT_LOCAL_METHODS  = YES
+
+#-------------------------------------------------
+# Optimización para C (NO C++)
+#-------------------------------------------------
+
+OPTIMIZE_OUTPUT_FOR_C  = YES
+
+#-------------------------------------------------
+# Generación HTML
+#-------------------------------------------------
+
+GENERATE_HTML          = YES
+HTML_OUTPUT            = html
+GENERATE_TREEVIEW      = YES
+
+#-------------------------------------------------
+# Mostrar código fuente (IMPORTANTE)
+#-------------------------------------------------
+
+SOURCE_BROWSER         = YES
+INLINE_SOURCES         = YES
+REFERENCED_BY_RELATION = YES
+REFERENCES_RELATION    = YES
+
+#-------------------------------------------------
+# Indexado y navegación
+#-------------------------------------------------
+
+ALPHABETICAL_INDEX     = YES
+GENERATE_DOCSET        = NO
+
+#-------------------------------------------------
+# Advertencias (opcional)
+#-------------------------------------------------
+
+WARN_IF_UNDOCUMENTED   = NO
+WARN_IF_DOC_ERROR      = YES
+
+#-------------------------------------------------
+# Diagramas (opcional pero pro)
+#-------------------------------------------------
+
+HAVE_DOT               = NO
+
+#-------------------------------------------------
+# Salida LaTeX (opcional)
+#-------------------------------------------------
+
+GENERATE_LATEX         = NO
+
+#-------------------------------------------------
+# Codificación
+#-------------------------------------------------
+
+INPUT_ENCODING         = UTF-8
+
+#-------------------------------------------------
+# Otros ajustes útiles
+#-------------------------------------------------
+
+QUIET                  = NO
